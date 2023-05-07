@@ -2,6 +2,7 @@ import React from 'react'
 import './home.css'
 import ScrollDown from './ScrollDown'
 import Social from './Social'
+import Inforamtion from './Inforamtion'
 export default function Home() {
   return (
     <section id='home'>
@@ -12,7 +13,7 @@ export default function Home() {
 
           <div className="home__img"></div>
 
-          {/* <Data /> */}
+          <Inforamtion/>
         </div>
         <ScrollDown />
       </div>
