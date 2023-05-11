@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import AOS from "aos";
 import Contact from './components/Contact/Contact';
+import Skill from './components/Skills/Skill';
 // import Header from "./components/Header/Header";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Header/>
     <Home/>
     <About/>
+    <Skill/>
     <Contact/>
 
     </div>

@@ -60,7 +60,7 @@ export default function Header() {
                 Contact
               </a>
             </li>    
-            {/* <li className="nav__item">
+            <li className="nav__item">
               <a
                 href="#skills"
                 onClick={() => setActiveNav("#skills")}
@@ -75,7 +75,7 @@ export default function Header() {
               </a>
             </li>
 
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <a
                 href="#services"
                 onClick={() => setActiveNav("#services")}
